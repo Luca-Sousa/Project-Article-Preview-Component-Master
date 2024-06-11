@@ -8,20 +8,47 @@
   
   <title>Project| Article preview component</title>
 
+  <link rel="stylesheet" href="src/output.css">
 </head>
-<body>
+<body class="min-h-screen font-Manrope flex items-center justify-between bg-col-GB p-5">
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+  <main class="bg-white rounded-xl">
+    
+    <div>
+      <img class="rounded-ss-xl rounded-se-xl" src="images/drawers.jpg" alt="logo drawers">
+    </div>
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+    <div class="p-8 flex flex-col gap-3">
+      <h2 class="font-bold text-col-VDGB">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
+      <p class="font-medium text-sm text-col-DDB">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p> 
+      
+      <div class="flex items-center justify-between mt-4">
+        <div class="flex items-center gap-4">
+            <img class="w-10 h-10 rounded-full" src="images/avatar-michelle.jpg" alt="Avatar Michelle">
+          <div>
+            <h2 class="font-bold text-sm text-col-VDGB">Michelle Appleton</h2>
+            <p class="font-medium text-sm text-col-DDB">28 Jun 2020</p>
+          </div>
+        </div>
+        <div class="w-9 h-9 rounded-full bg-col-LGB flex justify-center items-center cursor-pointer">
+          <img class="w-4 h-4" src="images/icon-share.svg" alt="Icon Share">
+        </div>
+      </div>
+    </div>
 
-  Michelle Appleton
-  28 Jun 2020
+    <div class="flex items-center justify-between py-3 px-8 bg-col-VDGB rounded-bl-xl rounded-br-xl">
+      <div class="flex items-center gap-4">
+        <h2 class="uppercase tracking-widest text-sm text-col-DDB font-bold">Share</h2>
+        <a href="#"><img src="images/icon-facebook.svg" alt="Icon Facebook"></a>
+        <a href="#"><img src="images/icon-twitter.svg" alt="Icon Twitter"></a>
+        <a href="#"><img src="images/icon-pinterest.svg" alt="Icon Pinterest"></a>
+      </div>
+      <div class="w-9 h-9 rounded-full bg-col-DDB flex justify-center items-center cursor-pointer">
+        <img class="w-4 h-4" src="images/icon-share-msg.svg" alt="Icon Share">
+      </div>
+    </div>
 
-  Share
+  </main>
   
 </body>
 </html>
