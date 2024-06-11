@@ -11,6 +11,9 @@ module.exports = {
       },
       fontFamily: {
         Manrope: 'Manrope'
+      },
+      screens: {
+        xs: '28.125rem'
       }
     },
   },
