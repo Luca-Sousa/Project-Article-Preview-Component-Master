@@ -10,37 +10,36 @@
 
   <link rel="stylesheet" href="src/output.css">
 </head>
-<body class="min-h-screen font-Manrope flex items-center justify-between bg-col-GB p-5">
+<body class="min-h-screen font-Manrope flex items-center bg-col-GB p-5">
 
-  <main class="bg-white rounded-xl">
+  <main class="flex flex-col bg-white rounded-xl mx-auto md:max-w-[850px] md:flex-row">
     
-    <div>
-      <img class="rounded-ss-xl rounded-se-xl" src="images/drawers.jpg" alt="logo drawers">
+    <div class="md:basis-2/5">
+      <img class="md:h-full rounded-ss-xl rounded-se-xl md:rounded-se-none md:rounded-bl-xl" src="images/drawers.jpg" alt="logo drawers">
     </div>
 
-    <div class="p-8 flex flex-col gap-5 xs:gap-8">
-      <div class="flex flex-col xs:max-w-md xs:mx-auto gap-3">
-        <h2 class="font-bold text-col-VDGB">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
-        <p class="font-medium text-sm text-col-DDB">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p> 
+    <div class="p-8 flex flex-col gap-5 xs:gap-8 xs:max-w-lg xs:mx-auto md:basis-3/5">
+      <div class="flex flex-col gap-3">
+        <h2 class="font-bold text-col-VDGB md:text-xl lg:text-2xl">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
+        <p class="font-medium text-sm text-col-DDB md:text-base">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p> 
       </div>
       
-      <div>
-        <div class="flex items-center justify-between xs:max-w-md xs:mx-auto">
-          <div class="flex items-center gap-4">
-            <img class="w-10 h-10 rounded-full" src="images/avatar-michelle.jpg" alt="Avatar Michelle">
-            <div>
-              <h2 class="font-bold text-sm text-col-VDGB">Michelle Appleton</h2>
-              <p class="font-medium text-sm text-col-DDB">28 Jun 2020</p>
-            </div>
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-4">
+          <img class="w-10 h-10 rounded-full" src="images/avatar-michelle.jpg" alt="Avatar Michelle">
+          <div>
+            <h2 class="font-bold text-sm text-col-VDGB">Michelle Appleton</h2>
+            <p class="font-medium text-sm text-col-DDB">28 Jun 2020</p>
           </div>
-          <div class="w-9 h-9 rounded-full bg-col-LGB flex justify-center items-center cursor-pointer" id="share">
-            <img class="w-4 h-4" src="images/icon-share.svg" alt="Icon Share">
-          </div>
+        </div>
+
+        <div class="w-9 h-9 rounded-full bg-col-LGB flex justify-center items-center cursor-pointer" id="share">
+          <img class="w-4 h-4" src="images/icon-share.svg" alt="Icon Share">
         </div>
       </div>
     </div>
 
-    <div class="block py-3 px-8 bg-col-VDGB rounded-bl-xl rounded-br-xl" id="msg-mobile">
+    <div class="hidden py-3 px-8 bg-col-VDGB rounded-bl-xl rounded-br-xl" id="msg-mobile">
       <div class="flex items-center justify-between xs:max-w-md xs:mx-auto">
         <div class="flex items-center gap-4">
           <h2 class="uppercase tracking-widest text-sm text-col-DDB font-bold">Share</h2>
