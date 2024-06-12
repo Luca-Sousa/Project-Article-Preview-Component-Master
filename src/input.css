@@ -3,3 +3,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base{
+    h2 {
+        @apply font-bold text-col-VDGB;
+    }
+
+    p {
+        @apply font-medium text-sm text-col-DDB;
+    }
+}
+
+@layer components {
+    .flex-center {
+        @apply flex items-center justify-center;
+    }
+
+    .flex-center-between {
+        @apply flex items-center justify-between;
+    }
+}

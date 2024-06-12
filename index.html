@@ -10,45 +10,48 @@
 
   <link rel="stylesheet" href="src/output.css">
 </head>
-<body class="min-h-screen font-Manrope flex items-center bg-col-GB p-5">
+<body class="min-h-screen font-Manrope flex-center bg-col-GB p-5">
 
-  <main class="flex flex-col bg-white rounded-xl mx-auto md:max-w-[850px] md:flex-row">
+  <main class="flex flex-col bg-white rounded-xl overflow-hidden shadow-lg shadow-col-DDB lg:overflow-visible lg:flex-row lg:relative">
     
-    <div class="md:basis-2/5">
-      <img class="md:h-full rounded-ss-xl rounded-se-xl md:rounded-se-none md:rounded-bl-xl" src="images/drawers.jpg" alt="logo drawers">
-    </div>
+    <div class="h-96 bg-img bg-cover bg-center-top lg:basis-2/5 lg:bg-left-top lg:h-auto lg:w-64 lg:rounded-tl-xl lg:rounded-bl-xl"></div>
 
-    <div class="p-8 flex flex-col gap-5 xs:gap-8 xs:max-w-lg xs:mx-auto md:basis-3/5">
+    <div class="h-auto p-8 flex flex-col gap-5 xs:gap-8 xs:max-w-lg xs:mx-auto lg:max-w-2xl lg:basis-3/5">
       <div class="flex flex-col gap-3">
-        <h2 class="font-bold text-col-VDGB md:text-xl lg:text-2xl">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
-        <p class="font-medium text-sm text-col-DDB md:text-base">Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p> 
+        <h2 class="lg:text-2xl">Shift the overall look and feel by adding these wonderful touches to furniture in your home</h2>
+        <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p> 
       </div>
       
-      <div class="flex items-center justify-between">
+      <div class="flex-center-between">
         <div class="flex items-center gap-4">
           <img class="w-10 h-10 rounded-full" src="images/avatar-michelle.jpg" alt="Avatar Michelle">
           <div>
-            <h2 class="font-bold text-sm text-col-VDGB">Michelle Appleton</h2>
-            <p class="font-medium text-sm text-col-DDB">28 Jun 2020</p>
+            <h2 class="text-sm">Michelle Appleton</h2>
+            <p>28 Jun 2020</p>
           </div>
         </div>
 
-        <div class="w-9 h-9 rounded-full bg-col-LGB flex justify-center items-center cursor-pointer" id="share">
+        <div class="w-9 h-9 rounded-full bg-col-LGB flex-center cursor-pointer" id="share">
           <img class="w-4 h-4" src="images/icon-share.svg" alt="Icon Share">
         </div>
       </div>
     </div>
 
-    <div class="hidden py-3 px-8 bg-col-VDGB rounded-bl-xl rounded-br-xl" id="msg-mobile">
-      <div class="flex items-center justify-between xs:max-w-md xs:mx-auto">
+    <div class="hidden py-3 px-8 bg-col-VDGB lg:w-52 lg:py-4 lg:absolute lg:rounded-lg lg:top-1/2 lg:left-[94%] lg:transform lg:-translate-x-1/2 lg:-translate-y-[94%] lg:mt-16 lg:shadow-lg lg:shadow-gray-400" id="msg-mobile">
+      <div class="flex-center-between xs:max-w-lg xs:mx-auto">
         <div class="flex items-center gap-4">
           <h2 class="uppercase tracking-widest text-sm text-col-DDB font-bold">Share</h2>
           <a href="#"><img src="images/icon-facebook.svg" alt="Icon Facebook"></a>
           <a href="#"><img src="images/icon-twitter.svg" alt="Icon Twitter"></a>
           <a href="#"><img src="images/icon-pinterest.svg" alt="Icon Pinterest"></a>
         </div>
-        <div class="w-9 h-9 rounded-full bg-col-DDB flex justify-center items-center cursor-pointer">
+
+        <div class="w-9 h-9 rounded-full bg-col-DDB flex-center cursor-pointer lg:hidden">
           <img class="w-4 h-4" src="images/icon-share-msg.svg" alt="Icon Share">
+        </div>
+
+        <div class="w-12 h-12 hidden lg:block absolute left-[76px] top-[30px]">
+          <img src="images/icon-triangle.svg" alt="">
         </div>
       </div>
     </div>
