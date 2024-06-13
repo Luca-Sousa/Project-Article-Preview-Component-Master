@@ -22,7 +22,7 @@
         <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p> 
       </div>
       
-      <div class="flex-center-between">
+      <div class="flex-center-between" id="user">
         <div class="flex items-center gap-4">
           <img class="w-10 h-10 rounded-full" src="images/avatar-michelle.jpg" alt="Avatar Michelle">
           <div>
@@ -31,35 +31,35 @@
           </div>
         </div>
 
-        <div class="w-9 h-9 rounded-full bg-col-LGB flex-center cursor-pointer hover:ring-2 hover:ring-col-GB" id="share">
+        <div class="w-9 h-9 rounded-full bg-col-LGB flex-center cursor-pointer border border-col-DDB hover:border-transparent hover:ring-2 hover:ring-col-GB" title="Share" id="share">
           <img class="w-4 h-4" src="images/icon-share.svg" alt="Icon Share">
         </div>
       </div>
     </div>
 
-    <div class="block py-3 px-8 bg-col-VDGB lg:w-52 lg:py-4 lg:absolute lg:rounded-lg lg:top-1/2 lg:left-[94%] lg:transform lg:-translate-x-1/2 lg:-translate-y-[94%] lg:mt-16 lg:shadow-lg lg:shadow-gray-400" id="msg-mobile">
-      <div class="flex-center-between xs:max-w-lg xs:mx-auto">
+    <div class="hidden py-3 bg-col-VDGB lg:w-52 lg:py-4 lg:absolute lg:rounded-lg lg:top-1/2 lg:left-[94%] lg:transform lg:-translate-x-1/2 lg:-translate-y-[94%] lg:mt-16 lg:shadow-lg lg:shadow-gray-400" id="option-share">
+      <div class="flex-center-between px-8 xs:max-w-lg xs:mx-auto">
         <div class="flex items-center gap-4">
           <h2 class="uppercase tracking-widest text-sm text-col-DDB font-bold">Share</h2>
-          <a href="#"><img src="images/icon-facebook.svg" alt="Icon Facebook"></a>
-          <a href="#"><img src="images/icon-twitter.svg" alt="Icon Twitter"></a>
-          <a href="#"><img src="images/icon-pinterest.svg" alt="Icon Pinterest"></a>
+          <a href="#"><img class="hover:scale-125" src="images/icon-facebook.svg" alt="Icon Facebook" title="Share Facebook"></a>
+          <a href="#"><img class="hover:scale-125" src="images/icon-twitter.svg" alt="Icon Twitter" title="Share Twitter"></a>
+          <a href="#"><img class="hover:scale-125" src="images/icon-pinterest.svg" alt="Icon Pinterest" title="Share Pinterest"></a>
         </div>
 
-        <div class="w-9 h-9 rounded-full bg-col-DDB flex-center cursor-pointer hover:ring-2 hover:ring-col-GB lg:hidden">
-          <img class="w-4 h-4" src="images/icon-share-msg.svg" alt="Icon Share">
+        <div class="w-9 h-9 rounded-full bg-col-DDB flex-center cursor-pointer hover:ring-2 hover:ring-col-GB lg:hidden" title="Back" id="back">
+          <img class="w-4 h-4" src="images/icon-back.svg" alt="Icon Back">
         </div>
 
         <div class="w-12 h-12 hidden lg:block absolute left-[76px] top-[30px]">
-          <img src="images/icon-triangle.svg" alt="">
+          <img src="images/icon-triangle.svg" alt="Icon Triangle">
         </div>
       </div>
     </div>
 
   </main>
   
-  <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <script src="src/script.js"></script>
+  <script src="/node_modules/jquery/dist/jquery.min.js"></script>
+  <script src="/src/script.js"></script>
 
 </body>
 </html>
