@@ -14,12 +14,6 @@ module.exports = {
       },
       screens: {
         xs: '28.125rem'
-      },
-      backgroundImage: {
-        'img': "url('/images/drawers.jpg')"
-      },
-      backgroundPosition: {
-        'center-top': 'center top'
       }
     },
   },
