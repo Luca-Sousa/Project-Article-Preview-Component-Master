@@ -623,8 +623,28 @@ p{
   margin-right: auto;
 }
 
+.-mt-8{
+  margin-top: -2rem;
+}
+
 .mt-16{
   margin-top: 4rem;
+}
+
+.-mt-5{
+  margin-top: -1.25rem;
+}
+
+.mb-5{
+  margin-bottom: 1.25rem;
+}
+
+.mb-8{
+  margin-bottom: 2rem;
+}
+
+.-mt-2{
+  margin-top: -0.5rem;
 }
 
 .block{
@@ -870,6 +890,39 @@ p{
 .py-4{
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
+}
+
+.pt-3{
+  padding-top: 0.75rem;
+}
+
+.pb-8{
+  padding-bottom: 2rem;
+}
+
+.pb-6{
+  padding-bottom: 1.5rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
+}
+
+.pb-7{
+  padding-bottom: 1.75rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
 }
 
 .font-Manrope{
